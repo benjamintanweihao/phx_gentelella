@@ -19,7 +19,11 @@ defmodule PhxGentelellaWeb.PageController do
   end
 
   def form(conn, _params) do
-    render conn, "form.html"
+    render conn, "plan.html"
+  end
+
+  def form_wizard(conn, _params) do
+    render conn, "form_wizard.html"
   end
 
 end

@@ -13,6 +13,7 @@
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
 import "js/helpers/smartresize"
+import "js/helpers/jquery.smartWizard"
 
 
 // All other theme helpers should be loaded first

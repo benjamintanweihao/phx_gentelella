@@ -18,6 +18,7 @@ defmodule PhxGentelellaWeb.Router do
 
     get "/", PageController, :index
     get "/form", PageController, :form
+    get "/form_wizard", PageController, :form_wizard
     get "/login", PageController, :login
     get "/plain", PageController, :plain
     get "/tables", PageController, :tables
