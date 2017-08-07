@@ -6,7 +6,7 @@
 - [X] Extract Sidebar, Top Navigation, etc into partials
 - [X] Plain Page
 - [X] Login Page
-- [ ] Tables Default Example
+- [X] Tables Default Example with DataTable
 - [ ] Fix static links
 
 ## Starting

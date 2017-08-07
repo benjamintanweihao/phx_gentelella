@@ -14,5 +14,8 @@
 import "phoenix_html"
 import "js/helpers/smartresize"
 
+
 // All other theme helpers should be loaded first
 import "js/theme"
+
+import "js/tables"
