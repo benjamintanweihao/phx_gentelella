@@ -14,4 +14,8 @@ defmodule PhxGentelellaWeb.PageController do
     render conn, "tables.html"
   end
 
+  def plain(conn, _params) do
+    render conn, "plain.html"
+  end
+
 end
