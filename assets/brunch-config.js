@@ -63,6 +63,9 @@ exports.config = {
       $: 'jquery',
       jQuery: 'jquery',
       bootstrap: 'bootstrap-sass'
+    },
+    styles: {
+      "animate.css": ["animate.css"]
     }
   }
 };

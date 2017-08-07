@@ -18,26 +18,27 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title">
+              <%= link to: page_path(@conn, :index), class: "site_title" do %>
                 <i class="fa fa-paw"></i>
-                <span>Gentellela Alela!</span></a>
+                <span>Gentellela Alela!</span>
+              <% end %>
             </div>
 
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
-            <%= render_shared "_menu_profile_quick_info.html" %>
+            <%= render_shared "_menu_profile_quick_info.html", conn: @conn %>
             <!-- /menu profile quick info -->
 
             <!-- sidebar menu -->
-            <%= render_shared "_sidebar.html" %>
+            <%= render_shared "_sidebar.html", conn: @conn %>
             <!-- /sidebar menu -->
 
           </div>
         </div>
 
         <!-- top navigation -->
-        <%= render_shared "_top_navigation.html" %>
+        <%= render_shared "_top_navigation.html", conn: @conn %>
         <!-- /top navigation -->
 
         <!-- page content -->

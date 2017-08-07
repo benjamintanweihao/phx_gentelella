@@ -2,11 +2,10 @@
 
 ## NOTE: Still a WIP!
 
-So far, only `plain.html` has been ported.
-
-- [X] Add missing JavaScript from plain.html
 - [X] Figure out how to extract JavaScript into its own files
 - [X] Extract Sidebar, Top Navigation, etc into partials
+- [X] Plain Page
+- [X] Login Page
 - [ ] Fix static links
 
 ## Starting
