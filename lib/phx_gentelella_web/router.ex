@@ -22,6 +22,7 @@ defmodule PhxGentelellaWeb.Router do
     get "/login", PageController, :login
     get "/plain", PageController, :plain
     get "/tables", PageController, :tables
+    get "/404", PageController, :page_404
   end
 
   # Other scopes may use custom stacks.

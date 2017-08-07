@@ -61,7 +61,9 @@
       </li>
       <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
-          <li><a href="page_403.html">403 Error</a></li>
+          <li>
+            <%= link "404 Error", to: page_path(@conn, :page_404) %>
+          </li>
           <li>
             <%= link "Plain Page", to: page_path(@conn, :plain) %>
           </li>

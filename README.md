@@ -12,6 +12,7 @@ include some JS plugins such as Switchery and iCheck.
 - [X] Tables Default Example with DataTable
 - [X] Form Page
 - [X] Form Wizard Page
+- [X] 404 page
 - [ ] Fix static links
 
 ## Starting

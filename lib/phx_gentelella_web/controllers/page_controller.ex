@@ -26,4 +26,9 @@ defmodule PhxGentelellaWeb.PageController do
     render conn, "form_wizard.html"
   end
 
+  def page_404(conn, _params) do
+    conn = put_layout conn, false
+    render conn, PhxGentelellaWeb.ErrorView, "404.html"
+  end
+
 end
