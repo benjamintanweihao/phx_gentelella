@@ -2,11 +2,15 @@
 
 ## NOTE: Still a WIP!
 
+This is also by no means a faithful port. Due to laziness, I've opted to not 
+include some JS plugins such as Switchery and iCheck.
+
 - [X] Figure out how to extract JavaScript into its own files
 - [X] Extract Sidebar, Top Navigation, etc into partials
 - [X] Plain Page
 - [X] Login Page
 - [X] Tables Default Example with DataTable
+- [X] Form Page
 - [ ] Fix static links
 
 ## Starting

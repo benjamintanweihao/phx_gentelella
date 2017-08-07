@@ -17,6 +17,7 @@ defmodule PhxGentelellaWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/form", PageController, :form
     get "/login", PageController, :login
     get "/plain", PageController, :plain
     get "/tables", PageController, :tables

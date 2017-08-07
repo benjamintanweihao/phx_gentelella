@@ -18,4 +18,8 @@ defmodule PhxGentelellaWeb.PageController do
     render conn, "plain.html"
   end
 
+  def form(conn, _params) do
+    render conn, "form.html"
+  end
+
 end
