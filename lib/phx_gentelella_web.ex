@@ -40,6 +40,10 @@ defmodule PhxGentelellaWeb do
       import PhxGentelellaWeb.Router.Helpers
       import PhxGentelellaWeb.ErrorHelpers
       import PhxGentelellaWeb.Gettext
+
+      def render_shared(template, assigns \\ []) do
+        render(PhxGentelellaWeb.SharedView, template, assigns)
+      end
     end
   end
 
